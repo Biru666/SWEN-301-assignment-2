@@ -1,0 +1,13 @@
+In this project, I chose json.org because it is simple and human-readable. 
+Comparing with other libraries, json.org is very basic.
+It just like the role of Array in Collections. In the final project of SWEN 225, I've tried to use
+gson and jackson to parse the map. However, the parsers of these two libraries don't parse data
+directly but need some more operations. With json.org, I can easily parse and generate
+Json data because its methods are easy for humans to read and write. 
+
+Because json.org is a tree-type library, then its structure is very stable. In some projects 
+with small data, people are more likely to use json.org because it uses the least
+memories. 
+
+
+
