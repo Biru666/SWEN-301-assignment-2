@@ -1,0 +1,16 @@
+[
+   {
+      "level": "WARN",
+      "logger": "foo",
+      "starttime": "1619654381406",
+      "thread": "main",
+      "message": "something went wrong"
+   },
+   {
+      "level": "DEBUG",
+      "logger": "foo",
+      "starttime": "1619654381406",
+      "thread": "main",
+      "message": "interesting !"
+   }
+]
