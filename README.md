@@ -3,7 +3,7 @@
 This project extends the **Log4j 1.2.17** logging framework by introducing:
 - A **custom JSON layout** for serializing log events.
 - An **in-memory appender** with export functionality.
-- **Runtime monitoring via JMX (Java Management Extensions)**.
+- **Runtime monitoring via MBean (Java Management Extensions)**.
 
 The project was developed in **Java 8** using the **Maven** build system.
 
@@ -14,7 +14,7 @@ The project was developed in **Java 8** using the **Maven** build system.
 This assignment demonstrates the ability to:
 1. Extend a real-world software system (Log4j 1.2.17).  
 2. Integrate and assess an existing open-source component (JSON library).  
-3. Implement runtime monitoring using **JMX**.  
+3. Implement runtime monitoring using **MBean**.  
 4. Apply modern software engineering practices such as testing, modular design, and dependency management.
 
 ---
@@ -24,11 +24,13 @@ This assignment demonstrates the ability to:
 - **Language:** Java 8  
 - **Build Tool:** Apache Maven  
 - **Logging Framework:** Log4j 1.2.17  
-- **JSON Library:** Gson (by Google)  intimates
+- **JSON Library:** json.org
 - **Testing Framework:** JUnit 5  
-- **Monitoring:** JMX (Java Management Extensions)  
-- **IDE (recommended):** IntelliJ IDEA / Eclipse  
+- **Monitoring:** MBean (Java Management Extensions)  
 
 ---
 
-## 📁 Project Structure
+## 🚀 Run the example program (Bash)
+
+mvn exec:java -Dexec.mainClass="nz.ac.wgtn.swen301.assignment2.example.LogRunner"
+
